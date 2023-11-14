@@ -1,0 +1,163 @@
+.mine{
+	justify-content: space-between;
+	display: flex;
+	}
+.kartinke,.blok,.syndyk{
+	display: flex;
+	  }
+body{
+	background-image: url("фон.png"); 
+	/* background-image: url("")- добавляет задний фон как картинку,
+	background-color:-добавляет цвет заднего фона*/
+}
+.nazv{
+	text-align: right;
+	/* размещяет только текст right-право,center-центер,left-лево*/
+}
+a{
+	color: white;
+}
+.color{
+	background-color: black;
+}
+.text{
+	position: absolute;
+	/* position- помогает определить где будет находится элемент*/
+	left: 50%;
+	/* left-смещает с лево
+	   top- смещвет с верху
+	   bottom-смещает с низу
+	   right-смещает с права*/
+	bottom: 20%;
+	transform: translateX(-50%);
+	max-width: 500px;
+	text-shadow: 5px 3px 4px #000000;
+}
+.foto{
+	position: relative;
+	/* relative-указывает,относительно чего будем позиционировать
+	absolute-указываем,где конкретно будет рвспологаться элемент,но не зафикстрован
+	fixed- элеиент зафиксирован на странице(при прокрутке страницы элемент движется за ним)
+	static-элемент статичен (стоит по умолчанию)*/
+}
+.lico{
+	left: 40%;
+	bottom: 30%;
+}
+.syndyk,.blok{
+	margin-right: 15px;
+	
+}
+.margin{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.nazv{
+	margin-top: 15px;
+	text-align: center;
+	opacity: 0.5;
+
+}
+.zagolovok{
+	text-align: center;
+	font-size: 30px;
+	font-family: Roboto;
+}
+.car3{
+	margin-left: 20px;
+	max-width: 500px;
+}
+.cont2{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.colorwhite{
+	color: white;
+}
+form{
+    border: 1px solid red;
+	border-radius: 10px;
+}
+.knop1{
+	padding: 8px;
+	margin: 5px;
+	background-color: #FFA07A;
+	border: 1px solid black; 
+	border-radius:10px;
+}
+fieldset{
+	margin: 20px;
+	max-width: 300px;
+}
+.input1{
+	width: 90%;
+}
+.anima{
+	animation: anima_1 3s infinite linear;
+}
+@keyframes anima_1 {
+	0%{
+		text-shadow: 0px 0px 0px black;
+	}
+	50%{
+		text-shadow: 3px 5px 30px white;
+	}
+	100%{
+		text-shadow: 0px 0px 0px black;
+	}
+}
+.anim{
+	animation: anima_2 3s infinite linear;
+
+}
+@keyframes anima_2 {
+	0%{
+		text-shadow: 0px 0px 0px black;
+	}
+	50%{
+		text-shadow: 3px 5px 30px green;
+	}
+	100%{
+		text-shadow: 0px 0px 0px black;
+	}
+}
+.mob{
+	font-size: 30px;
+	font-family:  Roboto;
+}
+.skob1{
+	color: white;
+	display: flex;
+}
+.skob2{
+	padding: 20px;
+	padding-top:180px;
+	font-size: 40px; 
+}
+.skob3{
+	color: red;
+	font-size: 30px;
+	padding: 20px;
+}
+.dva{
+	display: flex;
+	justify-content: center;
+}
+.knop2{
+	padding: 8px;
+	margin: 6px;
+	background-color: #CD5C5C;
+	border: 1px solid black; 
+	border-radius:10px;
+	margin-left: 15px;
+
+}
+.skob4{
+	padding: 20px;
+	
+	}
+.cont5{
+	border:2px solid black;
+	max-height: 250px;
+}
